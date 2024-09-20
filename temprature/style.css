@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e4e3d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: linear-gradient(to bottom, hsl(210, 62%, 78%), #ffffff);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+input, select, button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.thermometer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.thermometer {
+  position: relative;
+  width: 50px;
+  height: 350px;
+  background: hsl(48, 100%, 42%);
+  border-radius: 25px;
+  margin-right: 20px;
+  border: 5px solid #bbb;
+}
+
+.mercury {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: red;
+  border-radius: 25px;
+  height: 0;
+  transition: height 0.5s;
+}
+
+.temp-range {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.temp-range span {
+  font-size: 1.2rem;
+  color: #333;
+}
+.temp-range {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px; /* Increased height for more spacing */
+  font-size: 1rem;
+  color: #333;
+  margin-left: 20px;
+}
+
+.temp-range span {
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 10px; /* Adds more space between numbers */
+}
