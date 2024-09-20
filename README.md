@@ -26,4 +26,9 @@ Click "Convert" to see the converted values and the thermometer update.
 #Installation
 
 Clone the repository.
+
 Open index.html in your browser.
+
+Here you can see the image of the temprature converter and theramameter...
+![image](https://github.com/user-attachments/assets/f8a4077b-6fe2-4513-9bbd-f23b1ed44600)
+
